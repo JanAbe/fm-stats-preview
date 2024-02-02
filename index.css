@@ -83,7 +83,7 @@ main {
 
 .card-img {
   width: 100%;
-  min-height: 33dvh;
+  min-height: 15rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-image: linear-gradient(to right bottom, var(--violot-background), var(--violot-background)), url("images/image-header-mobile.jpg");
