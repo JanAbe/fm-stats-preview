@@ -100,6 +100,17 @@ main {
   display: none;
 }
 
+.stat {
+  border: 1px solid var(--dark-desaturated-blue);
+  transition: 1s ease;
+}
+
+.stat:hover {
+  border: 1px solid var(--soft-violet);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 @media (min-width: 55rem) {
 
   .card-img {
