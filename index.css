@@ -70,6 +70,8 @@ main {
 
 .stats-container {
   display: grid;
+  place-items: center;
+  margin-top: 2rem;
 }
 
 .stats-container p {
@@ -95,6 +97,8 @@ main {
 .stat {
   border: 1px solid var(--dark-desaturated-blue);
   transition: 1s ease;
+  margin: .5rem 0;
+  padding: 1rem;
 }
 
 .stat:hover {
@@ -113,7 +117,7 @@ li {
 
 .stat strong {
   display: block;
-  text-align: left;
+  text-align: center;
   font-size: 1.3rem;
   color: white;
   font-weight: 700;
@@ -122,10 +126,10 @@ li {
 
 .stat p {
   text-align: left;
+  margin: 0;
 }
 
 @media (min-width: 55rem) {
-
   .card-img {
     display: none;
   }
@@ -133,7 +137,7 @@ li {
   .card {
     margin: 0;
     padding: 3rem;
-    transition: 1s ease;
+    transition: 1s ease-in-out;
     border: 1px solid var(--dark-desaturated-blue);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -186,5 +190,6 @@ li {
 
   .stat p {
     text-align: left;
+    margin: 0;
   }
 }
