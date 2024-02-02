@@ -72,14 +72,6 @@ main {
   display: grid;
 }
 
-.stats-container h2 {
-  color: var(--white);
-  text-align: center;
-  margin-bottom: 0;
-  font-weight: 700;
-  font-family: "Inter_local", sans-serif;
-}
-
 .stats-container p {
   margin-top: 0;
   letter-spacing: .1rem;
@@ -111,6 +103,27 @@ main {
   cursor: pointer;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.stat strong {
+  display: block;
+  text-align: left;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  font-family: "Inter_local", sans-serif;
+}
+
+.stat p {
+  text-align: left;
+}
+
 @media (min-width: 55rem) {
 
   .card-img {
@@ -120,6 +133,15 @@ main {
   .card {
     margin: 0;
     padding: 3rem;
+    transition: 1s ease;
+    border: 1px solid var(--dark-desaturated-blue);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .card:hover {
+    border: 1px solid var(--soft-violet);
+    border-right: none;
   }
 
   .container {
@@ -151,5 +173,18 @@ main {
 
   .stats-container {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .stat strong {
+    display: block;
+    text-align: left;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    font-family: "Inter_local", sans-serif;
+  }
+
+  .stat p {
+    text-align: left;
   }
 }
