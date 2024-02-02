@@ -22,7 +22,7 @@
 body {
   margin: 0;
   background-color: var(--very-dark-blue);
-  font-size: 15px;
+  font-size: 1rem;
   font-family: "Inter_local", sans-serif;
 }
 
