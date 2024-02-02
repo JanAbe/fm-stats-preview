@@ -81,13 +81,19 @@ main {
   font-size: .8rem;
 }
 
-.card-img {
-  width: 100%;
-  min-height: 15rem;
+.card-img-wrapper {
+  background-color: var(--soft-violet);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: linear-gradient(to right bottom, var(--violot-background), var(--violot-background)), url("images/image-header-mobile.jpg");
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+  mix-blend-mode: multiply;
+  opacity: 75%;
   background-size: cover;
+  object-fit: cover;
 }
 
 .desktop-image {
