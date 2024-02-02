@@ -94,6 +94,7 @@ main {
   opacity: 75%;
   background-size: cover;
   object-fit: cover;
+  display: block;
 }
 
 .desktop-image {
