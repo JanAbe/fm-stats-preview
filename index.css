@@ -89,8 +89,11 @@ main {
 
 .card-img {
   width: 100%;
+  min-height: 33dvh;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  background-image: linear-gradient(to right bottom, var(--violot-background), var(--violot-background)), url("images/image-header-mobile.jpg");
+  background-size: cover;
 }
 
 .desktop-image {
@@ -128,16 +131,9 @@ main {
 
   .desktop-image {
     display: block;
-    background-image: url("images/image-header-desktop.jpg");
+    background-image: linear-gradient(to right bottom, var(--violot-background), var(--violot-background)), url("images/image-header-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-
-  .overlay {
-    background-color: var(--violot-background);
-    height: 100%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
